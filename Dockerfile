@@ -1,5 +1,5 @@
 FROM alpine:3.3
-MAINTAINER Alex Bordei - Bigstep Inc.
+MAINTAINER Simen Huuse - itelligence // Thanks to Alex Bordei - Bigstep Inc.
 
 run apk add --update darkhttpd && rm -rf /var/cache/apk/*
 
